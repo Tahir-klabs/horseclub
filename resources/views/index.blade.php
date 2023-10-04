@@ -1165,7 +1165,7 @@
 						<aside class="widget widget_flickr contactus">
 							<h3 class="widget-title">GET IN TOUCH WITH US</h3>
 							@if(session()->has('alert'))
-								<div class="alert alert-dark alert-dismissible fade my-alert show">
+								<div class="alert alert-success alert-dismissible show">
 									<button type="button" class="close" data-dismiss="alert">&times;</button>
 									<strong class="alert-strong">{{session('alert')}}</strong>
 								</div>

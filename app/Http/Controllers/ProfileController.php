@@ -148,7 +148,7 @@ class ProfileController extends Controller
             'message'=> $request->message,
         ];
 
-        Mail::to('tahir.salim@legendesk.com')->send(new clubMail($contacts));
+        // Mail::to('tahir.salim@legendesk.com')->send(new clubMail($contacts));
 
         Session::flash('alert', 'Contact mail sent successfully!');
         return redirect()->back();

@@ -434,6 +434,19 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 	text-decoration: none;
 }
 
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.alert-dismissible .close {
+    position: relative;
+    top: -2px;
+    right: 0px;
+    color: inherit;
+}
 /* - Nav Dropdown */
 
 /* ## Responsive ************************************************************************************** */
