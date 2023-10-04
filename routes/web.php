@@ -29,6 +29,7 @@ Route::get('/', function () {
 Auth::routes();
 // Route::get('/home', [HomeController::class, 'home'])->name('home');
 
+Route::post('contact/send', [ProfileController::class, 'send'])->name('contact.send');
 
 //profile routes start
 Route::get('/profile', [ProfileController::class, 'index'])->name('profile');

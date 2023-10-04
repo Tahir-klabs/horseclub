@@ -140,16 +140,15 @@
 			<div class="container">
 				<!-- Ownavigation -->
 				<nav class="navbar ownavigation">
-					<div class="navbar-header">
+					<div class="navbar-header ">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="index.html"><span>P</span>restige</a>
+						</button>						
 					</div>
-					<div id="navbar" class="navbar-collapse collapse">
+					<div id="navbar" class="navbar-collapse collapse logo-block">
 						<ul class="nav navbar-nav">
 							<li class="active"><a href="#top" title="Home">Home</a></li>
 							<li><a href="#features-section" title="Features">Features</a></li>
@@ -162,9 +161,9 @@
 									<li><a href="blog-single.html" title="Blog Single">Blog Single</a></li>
 								</ul>
 							</li> --}}
-							<li><a href="#pricing-section" title="Pricing">Pricing</a></li>
 							<li><a href="#team-section" title="About us">About us</a></li>
-							<li><a href="#footer-main" title="Contact Us">Contact</a></li>
+							<li><a href="#pricing-section" title="Policy">Policy</a></li>							
+							<li><a href="#footer-main" title="Contact Us">Contact us</a></li>
 						</ul>
 					</div>
 					{{-- <div id="loginpanel" class="desktop-hide">
@@ -585,12 +584,12 @@
 						</div>
 						<div class="col-md-4 col-xs-6 no-padding gallery-box people">
 							<div class="gallery-content">
-								<i><img src="assets/images/people6.jpg" alt="Gallery" /></i>
+								<i><img src="assets/images/people6.jpeg" alt="Gallery" /></i>
 								<span>Horses</span>
 								<div class="gallery-detail">
 									<h3>Project Title</h3>
 									<a href="#"><i class="fa fa-heart-o"></i>80 Likes</a>
-									<a class="zoom" href="assets/images/people6.jpg"><i class="fa fa-expand"></i>Zoom in</a>
+									<a class="zoom" href="assets/images/people6.jpeg"><i class="fa fa-expand"></i>Zoom in</a>
 								</div>
 							</div>
 						</div>
@@ -691,7 +690,7 @@
 						</div>
 					</div><!-- Row /- -->
 				</div><!-- Container /- -->
-			</div><!-- Services Section /- -->
+			</div><br/><!-- Services Section /- -->
 			
 			<!-- Build Sites Section -->
 			{{-- <div id="build-section" class="container-fluid no-left-padding no-right-padding build-section">
@@ -769,10 +768,10 @@
 						</div>
 					</div>
 				</div><!-- Container /- -->
-			</div><!-- Counter Section /- -->
+			</div><!-- Counter Section /- -->--}}
 			
 			<!-- Blog Section -->
-			<div id="blog-section" class="container-fluid no-left-padding no-right-padding blog-section">
+			{{-- <div id="blog-section" class="container-fluid no-left-padding no-right-padding blog-section">
 				<!-- Container -->
 				<div class="container">
 					<!-- Section Header -->
@@ -827,10 +826,10 @@
 						</div>
 					</div><!-- Blog Carousel -->
 				</div><!-- Container /- -->
-			</div><!-- Blog Section /- --> --}}
+			</div><!-- Blog Section /- -->  --}}
 			
 			<!-- Pricing Section -->
-			<div id="pricing-section" class="container-fluid no-left-padding no-right-padding pricing-section">
+			{{-- <div id="pricing-section" class="container-fluid no-left-padding no-right-padding pricing-section">
 				<!-- Container -->
 				<div class="container">
 					<!-- Section Header -->
@@ -901,8 +900,9 @@
 						</div>
 					</div><!-- Row /- -->
 				</div><!-- Container /- -->
-			</div><!-- Pricing Section /- -->
+			</div><!-- Pricing Section /- --> --}}
 			
+
 			<!-- Team Section -->
 			<div id="team-section" class="container-fluid no-left-padding no-right-padding team-section">
 				<!-- Container -->
@@ -957,9 +957,10 @@
 								<h3>ABDUL AHAD</h3>
 								<span>CEO</span>
 								<ul>
-									<li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
-									<li><a href="#"><i class="fa-brands fa-square-x-twitter"></i></a></li>
-									<li><a href="#"><i class="fa-solid fa-square-rss"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+									<li><a href="#"><i class="fa-solid fa-rss"></i></a></li>
+									<li><a href="#" title="Linkedin"><i class="fa-brands fa-instagram"></i></a></li>
 								</ul>
 							</div>
 						</div>
@@ -969,9 +970,10 @@
 								<h3>SULEIMAN ALTAF</h3>
 								<span>Operation Director</span>
 								<ul>
-									<li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
-									<li><a href="#"><i class="fa-brands fa-square-x-twitter"></i></a></li>
-									<li><a href="#"><i class="fa-solid fa-square-rss"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+									<li><a href="#"><i class="fa-solid fa-rss"></i></a></li>
+									<li><a href="#" title="Linkedin"><i class="fa-brands fa-instagram"></i></a></li>
 								</ul>
 							</div>
 						</div>
@@ -981,9 +983,10 @@
 								<h3>Saad</h3>
 								<span>Marketing Director</span>
 								<ul>
-									<li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
-									<li><a href="#"><i class="fa-brands fa-square-x-twitter"></i></a></li>
-									<li><a href="#"><i class="fa-solid fa-square-rss"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+									<li><a href="#"><i class="fa-solid fa-rss"></i></a></li>
+									<li><a href="#" title="Linkedin"><i class="fa-brands fa-instagram"></i></a></li>
 								</ul>
 							</div>
 						</div>
@@ -993,15 +996,94 @@
 								<h3>SULEIMAN ALTAF</h3>
 								<span>seo</span>
 								<ul>
-									<li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
-									<li><a href="#"><i class="fa-brands fa-square-x-twitter"></i></a></li>
-									<li><a href="#"><i class="fa-solid fa-square-rss"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+									<li><a href="#"><i class="fa-solid fa-rss"></i></a></li>
+									<li><a href="#" title="Linkedin"><i class="fa-brands fa-instagram"></i></a></li>
 								</ul>
 							</div>
 						</div>
 					</div><!-- Row /- -->
 				</div><!-- Container /- -->
 			</div><!-- Team Section /- -->
+
+			<!-- terms and condition Section -->
+			<div id="pricing-section"  class="container-fluid no-left-padding no-right-padding services1-section">
+				<!-- Container -->
+				<div class="container">
+					<!-- Row -->
+					<div class="row">
+						<div class="col-md-6 col-xs-6">
+							<div class="srv-box">
+								<h3>Terms and Conditions</h3>
+								<p>The Terms and Conditions serve as a legal agreement between you, hereinafter referred to as “you” or “your” or “user,” and Pivot Group Global, hereinafter referred to as the “Company.” The Agreement presides over your use of the Legacy Application or, as referred to in this document, as “Services.”
+									You must accept all the terms within this Agreement in order to use the services. By creating an account or otherwise using the Services, you acknowledge that you have read, understood, and agree to be bound by the terms of this Agreement. The company reserves the right to alter and update this Agreement at any time, in which event it will notify you and all other users. You accept such changes and agree to the amended Agreement if you continue to use the Services. You may not update or change this Agreement unless the company agrees in writing to do so.</p>
+									
+	
+									<div class="terms">
+										<h4>Termination of Services and Agreement</h4>
+										<p>Without limiting company’s other remedies in law or equity, company may issue an immediate warning, temporarily suspend, indefinitely suspend, or terminate your ability to access the Services and/or terminate this Agreement (specifically between company and you only), without notice or liability, for any reason whatsoever (in company’s sole discretion), including but not limited to if:</p>
+									
+									</div>
+	
+									<div class="terms">
+										<h4>You breach the agreed terms</h4>
+										<p>If the company cannot ascertain the authenticity of the verification provided to it.
+											If the company believes in its absolute discretion, that the user’s actions pose a risk of legal liability or any other party that may be involved within the use of the services.
+											Any element of this Agreement that by its provisions imposes continuing obligations on you shall survive the termination of this Agreement between Company and you only.</p>
+									
+									</div>
+	
+									<div class="terms">
+										<h4>Use of Legacy App Services</h4>
+										<p>You may use the services in accordance with the terms and conditions of this Agreement. Your use of the Services is strictly your responsibility. You expressly agree that you will not use the Services for any purpose that is not lawful and legitimate. You may not use the Services in any way that a) violates the terms of this Agreement, as revised by Companythe from time to time, or any other conditions, rules, or guidelines provided by the company about your use of the Services, or b) could harm company’s public image, reputation, or goodwill.</p>
+									
+									</div>
+
+									<div class="terms">
+										<h4>Password Protection</h4>
+										<p>You represent and warrant that any information you give in connection with your use of the Services is correct, complete, and current and that you will promptly update that information if it changes. You are responsible for maintaining your user ID and password private and secure if you are supplied with one to access the Services. You acknowledge and agree that you are accountable for any messages, transactions, or usage of the Services made with your user ID and password and any fees, charges, liability, or other obligations that may arise as a result of such use. If you feel your password has been stolen or could somehow be misused, you are responsible for updating it.</p>
+									
+									</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-xs-6">
+							<div class="srv-box">
+								<h3>Privacy Policy</h3>
+								<div class="terms">
+									<h4>Indemnification</h4>
+									<p>You agree to indemnify or hold harmless the company, its directors, managers, senior officers, interns, and workers from any costs, claims, or liabilities, which the aforementioned may be subject to in connection with <br/><br/>a) the breach of this Agreement and <br/>b) your use of the services.</p>
+								
+								</div>
+
+								<div class="terms">
+									<h4>Limitation of Liability</h4>
+									<p>The company will not be liable for any damages, whether indirect or consequential, from the use or inability to use the services (which includes, without limitation, damages for loss of profits or data and/or any business interruption), whether such arises from malicious code/viruses, delays in the provision of service, deletion of files or other data. In no case will the company be liable to you for any claim, whether arising in contract or tort, or
+										for any claim made against the company by any other party.</p>
+								
+								</div>
+
+								<div class="terms">
+									<h4>Choice of Law</h4>
+									<p>This Agreement will be governed by and construed in compliance with applicable laws of the United Arab Emirates. Any controversy arising in this Agreement shall be settled through the Dubai International Arbitration Centre. The arbitration shall be held in the United Arab Emirates, and the language of proceedings is to be in English.
+										You may not assign or transfer this Agreement or the rights granted hereunder, in whole or in part, without the company’s prior written consent. Any successor in interest or assignee must agree to the terms and conditions of this Agreement. You may not give anybody else access to the Services, notwithstanding the foregoing. If any provision of this Agreement is found to
+										be not valid, the invalidity of that provision will not impact the legality of the remaining terms of this Agreement.</p>
+								
+								</div>
+
+								<div class="terms">
+									<h4>User Materials</h4>
+									<p>You may generate or contribute information, messages, data, and other materials electronically, which will be stored, uploaded, published, e-mailed, or otherwise sent using the Services to use the Services (collectively, “User Materials”). You guarantee that you have acquired all applicable third-party rights, including, but not limited to, copyrights, for any third-party User Materials. You must establish whether or whether any licenses are required to use third-party content and information that is part of user Materials and, if so, to obtain them</p>
+								
+								</div>
+								
+								
+							</div>
+						</div>
+					</div><!-- Row /- -->
+				</div><!-- Container /- -->
+			</div><!-- terms and condition Section /- -->
+			<hr>
 			
 		</main>
 	
@@ -1017,17 +1099,19 @@
 					<h3><a href="#"><img src="assets/images/logo-syndicate-1.png" alt="logo" /></a></h3>
 					<p>My {{ config('app.name', 'Laravel') }}</p>
 					<ul>
-						<li><a href="#" title="Facebook"><i class="fa-brands fa-square-facebook"></i></a></li>
-						<li><a href="#" title="Twitter"><i class="fa-brands fa-square-x-twitter"></i></a></li>
-						<li><a href="#" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
-						<li><a href="#" title="Tumblr"><i class="fa-solid fa-square-rss"></i></a></li>
+						<li><a href="#" title="Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+						<li><a href="#" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
+						<li><a href="#" title="Linkedin"><i class="fa-brands fa-instagram"></i></a></li>
+						<li><a href="#" title="Tumblr"><i class="fa-solid fa-rss"></i></a></li>
+						<li><a href="#" title="Tumblr"><i class="fa-brands fa-youtube"></i></a></li>
+
 					</ul>
 				</div>
 				<div class="row">
 					<!-- Widget Contact -->
 					<div class="col-md-4 col-xs-6">
 						<aside class="widget widget_contact">
-							<h3 class="widget-title">Contact</h3>
+							<h3 class="widget-title">CONTACT US</h3>
 							<div class="contact-tab">
 								<!-- Nav tabs -->
 								<ul class="nav nav-tabs" role="tablist">
@@ -1054,25 +1138,46 @@
 					</div><!-- Widget Contact /- -->
 					<!-- Widget Working Hours -->
 					<div class="col-md-4 col-xs-6">
-						<aside class="widget widget_working_hours">
-							<h3 class="widget-title">Working Hours</h3>	
-							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit .</p>
-							<p>mon - fri :  9.00  AM  To  5.00 PM</p>
-							<p>sat - sun : 11.00  AM  To  3.00 PM </p>
-						</aside>
+						<div class="footer-li widget widget_flickr">
+							<h3 class="widget-title">QUICK LINKS</h3>
+							<ul >
+								<li class="active"><a href="#top" title="Home">Home</a></li>
+								<li><a href="#features-section" title="Features">Features</a></li>
+								<li><a href="#gallery-section" title="Gallery">Gallery</a></li>
+								<li><a href="#services-section" title="Services">Services</a></li>
+								{{-- <li class="dropdown">
+									<a href="blog.html" title="Blog" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+									<i class="ddl-switch fa fa-angle-down"></i>
+									<ul class="dropdown-menu">
+										<li><a href="blog-single.html" title="Blog Single">Blog Single</a></li>
+									</ul>
+								</li> --}}
+								<li><a href="#team-section" title="About us">About us</a></li>
+								<li><a href="#pricing-section" title="Policy">Policy</a></li>
+								<li><a href="#footer-main" title="Contact Us">Contact Us</a></li>
+							</ul>
+						</div>
+							
+						
 					</div><!-- Widget Working Hours /- -->
 					<!-- Widget Flicker -->
 					<div class="col-md-4 col-xs-6">
-						<aside class="widget widget_flickr">
-							<h3 class="widget-title">Flickr Gallery</h3>
-							<ul>
-								<li><a href="#"><img src="assets/images/flicker-1.jpg" alt="Flicker" /></a></li>
-								<li><a href="#"><img src="assets/images/flicker-2.jpg" alt="Flicker" /></a></li>
-								<li><a href="#"><img src="assets/images/flicker-3.jpg" alt="Flicker" /></a></li>
-								<li><a href="#"><img src="assets/images/flicker-4.jpg" alt="Flicker" /></a></li>
-								<li><a href="#"><img src="assets/images/flicker-5.jpg" alt="Flicker" /></a></li>
-								<li><a href="#"><img src="assets/images/flicker-6.jpg" alt="Flicker" /></a></li>
-							</ul>
+						<aside class="widget widget_flickr contactus">
+							<h3 class="widget-title">GET IN TOUCH WITH US</h3>
+							@if(session()->has('alert'))
+								<div class="alert alert-dark alert-dismissible fade my-alert show">
+									<button type="button" class="close" data-dismiss="alert">&times;</button>
+									<strong class="alert-strong">{{session('alert')}}</strong>
+								</div>
+							@endif
+							<form action="{{url('/contact/send')}}" method="POST">
+								@csrf
+								<input type="text" class="form-control" name="name" placeholder="Name">
+								<input type="email" class="form-control" name="email" placeholder="Email">
+								<input type="tel" class="form-control" name="phone" placeholder="Phone">
+								<textarea name="message" class="form-control" placeholder="Type your message here"></textarea>
+								<input type="submit" value="Submit">
+							</form>
 						</aside> 
 					</div><!-- Widget Flicker /- -->
 				</div><!-- Row /- -->

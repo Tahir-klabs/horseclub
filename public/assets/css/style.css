@@ -384,6 +384,56 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
     list-style: none;
     margin-left: -55px;
 }
+
+.contactus input, .contactus textarea {
+    margin-bottom: 10px !important;
+}
+.contactus input[type=submit] {
+    border: 2px solid #cd2122 !important;
+    color: #cd2122 !important;
+    display: inline-block !important;
+    text-decoration: none !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    padding: 13px 35px 12px !important;
+    letter-spacing: 1.2px !important;
+}
+
+.contactus input[type=submit]:hover {
+    background-color: #cd2122 !important;
+    border-color: transparent !important;
+    color: #fff !important;
+}
+
+.terms {
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    display: inline-block;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.terms>p{
+	text-align: justify;
+}
+
+.footer-li>ul>li {
+    margin-bottom: 5px !important;
+    text-align: center;
+    font-size: 20px;
+    list-style: none;
+    display: block;
+	
+}
+.footer-li>ul>li>a {
+    color: white !important;
+	text-decoration: none;
+}
+.footer-li>ul>li>a:hover {
+    color: #cd2122 !important;
+	text-decoration: none;
+}
+
 /* - Nav Dropdown */
 
 /* ## Responsive ************************************************************************************** */

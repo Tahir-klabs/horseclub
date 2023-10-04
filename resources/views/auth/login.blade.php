@@ -18,7 +18,7 @@
                                 <p class="text-white-50 mb-0">
                                     {{ config('app.name', 'Laravel') }}</p>
                                 <a href="#" class="logo logo-admin mt-4">
-                                    <img src="assets/images/logo-light.png" alt="" height="30">
+                                    <img src="assets/images/logo-syndicate-1.png" alt="" height="30">
                                 </a>
                             </div>
                         </div>
@@ -101,8 +101,7 @@
                             <script>
                                 document.write(new Date().getFullYear())
                             </script> {{ config('app.name', 'Laravel') }} Crafted with <i
-                                class="mdi mdi-heart text-danger"></i> by
-                            Tahir
+                                class="mdi mdi-heart text-danger"></i>
                         </p>
                     </div>
 

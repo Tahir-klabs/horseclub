@@ -3,11 +3,15 @@
 namespace App\Http\Controllers;
 
 use Alert;
+use App\Mail\clubMail;
+use App\Models\Contact;
 use App\Models\User;
 use Illuminate\Http\File;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Storage;
 
 class ProfileController extends Controller
@@ -119,5 +123,34 @@ class ProfileController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+
+    public function send(Request $request)
+    {
+        $this->validate($request, [
+            'name' => 'required',
+            'email' => 'required|email',
+            'message' => 'required',
+        ]);
+
+        $contact = new Contact();
+        $contact->name = $request->name;
+        $contact->email = $request->email;
+        $contact->phone = $request->phone;
+        $contact->message = $request->message;
+        $contact->save();
+
+        $contacts = [
+            'name'=> $request->name,
+            'email'=> $request->email,
+            'phone'=> $request->phone,
+            'message'=> $request->message,
+        ];
+
+        Mail::to('tahir.salim@legendesk.com')->send(new clubMail($contacts));
+
+        Session::flash('alert', 'Contact mail sent successfully!');
+        return redirect()->back();
     }
 }
