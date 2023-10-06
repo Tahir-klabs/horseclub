@@ -447,6 +447,17 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
     right: 0px;
     color: inherit;
 }
+.bg-login {
+	background-image: url(../images/background-horse.jpg)  !important;
+	padding: 60px 0px !important;
+	background-size: cover !important;
+	background-position: center center !important;
+	position: relative !important;
+	border-radius: 0px 0px 50% 50% !important; }
+
+.bg-login-overlay{
+	opacity: .6 !important;
+	}
 /* - Nav Dropdown */
 
 /* ## Responsive ************************************************************************************** */

@@ -103,8 +103,8 @@
                         <p>©
                             <script>
                                 document.write(new Date().getFullYear())
-                            </script> Qovex. Crafted with <i class="mdi mdi-heart text-danger"></i> by
-                            Themesbrand
+                            </script> {{ config('app.name', 'Laravel') }} Crafted with <i
+                                class="mdi mdi-heart text-danger"></i>
                         </p>
                     </div>
 

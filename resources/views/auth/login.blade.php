@@ -15,7 +15,7 @@
                             <div class="bg-login-overlay"></div>
                             <div class="position-relative">
                                 <h5 class="text-white font-size-20">Welcome Back !</h5>
-                                <p class="text-white-50 mb-0">
+                                <p class="text-white-50 mb-0 font-size-20 font-weight-8">
                                     {{ config('app.name', 'Laravel') }}</p>
                                 <a href="#" class="logo logo-admin mt-4">
                                     <img src="assets/images/logo-syndicate-1.png" alt="" height="30">
@@ -31,7 +31,7 @@
                                         <input id="email" type="email"
                                             class="form-control @error('email') is-invalid @enderror" name="email"
                                             value="{{ old('email') }}" required autocomplete="email"
-                                            placeholder="Enter email" autofocus>
+                                            placeholder="Enter Email" autofocus>
 
                                         @error('email')
                                             <span class="invalid-feedback" role="alert">
@@ -42,7 +42,7 @@
 
                                     <div class="mb-3">
                                         <input id="password" type="password"
-                                            class="form-control @error('password') is-invalid @enderror" name="password"
+                                            class="form-control @error('password') is-invalid @enderror" name="password" placeholder="Enter Password"
                                             required autocomplete="current-password">
 
                                         @error('password')
