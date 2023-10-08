@@ -15,9 +15,9 @@
                             <div class="bg-login-overlay"></div>
                             <div class="position-relative">
                                 <h5 class="text-white font-size-20">Free Register</h5>
-                                <p class="text-white-50 mb-0">Get your free Qovex account now</p>
-                                <a href="index.html" class="logo logo-admin mt-4">
-                                    <img src="assets/images/logo-sm-dark.png" alt="" height="30">
+                                <p class="text-white-50 mb-0">{{ config('app.name', 'Laravel') }}</p>
+                                <a href="{{url('/')}}" class="logo1 logo-admin mt-4">
+                                    <img src="assets/images/logo-syndicate-1.png" alt="" height="30">
                                 </a>
                             </div>
                         </div>
@@ -103,8 +103,8 @@
                         <p>©
                             <script>
                                 document.write(new Date().getFullYear())
-                            </script> Qovex. Crafted with <i class="mdi mdi-heart text-danger"></i> by
-                            Themesbrand
+                            </script> {{ config('app.name', 'Laravel') }} Crafted with <i
+                                class="mdi mdi-heart text-danger"></i>
                         </p>
                     </div>
 

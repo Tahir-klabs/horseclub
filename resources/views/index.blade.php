@@ -164,6 +164,8 @@
 							<li><a href="#team-section" title="About us">About us</a></li>
 							<li><a href="#pricing-section" title="Policy">Policy</a></li>							
 							<li><a href="#footer-main" title="Contact Us">Contact us</a></li>
+							<li><a href="{{route('login')}}" title="Login">Login</a></li>
+							<li><a href="{{route('register')}}" title="Signup">Signup</a></li>
 						</ul>
 					</div>
 					{{-- <div id="loginpanel" class="desktop-hide">

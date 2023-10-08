@@ -1,4 +1,4 @@
-<link rel="shortcut icon" href="assets/images/favicon.ico">
+<link rel="shortcut icon" href="assets/images/logo-syndicate-1.png">
 
 <!-- jquery.vectormap css -->
 <link href="assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />

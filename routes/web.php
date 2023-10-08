@@ -6,6 +6,7 @@ use App\Http\Controllers\MemberController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\TeamController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\WebsiteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,12 +20,26 @@ use Illuminate\Support\Facades\Route;
  */
 
 Route::get('/', function () {
-    return view('index');
+    return view('');
 });
 // Route::get('/', [HomeController::class, 'index'])->name('/');
 // Route::get('/login', function () {
 //     return view('auth.login');
 // });
+
+//website routes start
+Route::get('/', [WebsiteController::class, 'index'])->name('web.index');
+Route::get('/about-us', [WebsiteController::class, 'about'])->name('web.about');
+Route::get('/our-horses', [WebsiteController::class, 'horses'])->name('web.horses');
+Route::get('/members', [WebsiteController::class, 'members'])->name('web.members');
+Route::get('/news', [WebsiteController::class, 'news'])->name('web.news');
+Route::get('/shop', [WebsiteController::class, 'shop'])->name('web.shop');
+Route::get('/merchandise', [WebsiteController::class, 'merchandise'])->name('web.merchandise');
+Route::get('/terms-and-condition', [WebsiteController::class, 'termsAndCondition'])->name('web.terms');
+Route::get('/privacy-policy', [WebsiteController::class, 'privacy'])->name('web.privacy');
+Route::get('/contact-us', [WebsiteController::class, 'contact'])->name('web.contact');
+
+//website routes end
 
 Auth::routes();
 // Route::get('/home', [HomeController::class, 'home'])->name('home');

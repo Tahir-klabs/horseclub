@@ -4,10 +4,10 @@
     <title>Welcome to {{ config('app.name', 'Laravel') }}</title>
 </head>
 <body>
-    <h1>{{ $contacts['name'] }}</h1>
-    <p>{{ $contacts['email'] }}</p>
-    <p>{{ $contacts['phone'] }}</p>
-    <p>{{ $contacts['message'] }}</p>
+    <h4>Full Name: {{ $contacts['name'] }}</h4><br/>
+    <p>Email Address: {{ $contacts['email'] }}</p><br/>
+    <p>Phone Number: {{ $contacts['phone'] }}</p><br/>
+    <p>Message: {{ $contacts['message'] }}</p><br/>
    
     <p>Thank you</p>
 </body>

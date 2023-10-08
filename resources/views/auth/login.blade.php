@@ -17,7 +17,7 @@
                                 <h5 class="text-white font-size-20">Welcome Back !</h5>
                                 <p class="text-white-50 mb-0">
                                     {{ config('app.name', 'Laravel') }}</p>
-                                <a href="#" class="logo logo-admin mt-4">
+                                <a href="{{url('/')}}" class="logo1 logo-admin mt-4">
                                     <img src="assets/images/logo-syndicate-1.png" alt="" height="30">
                                 </a>
                             </div>
@@ -43,7 +43,7 @@
                                     <div class="mb-3">
                                         <input id="password" type="password"
                                             class="form-control @error('password') is-invalid @enderror" name="password"
-                                            required autocomplete="current-password">
+                                            required placeholder="Enter password" autocomplete="current-password">
 
                                         @error('password')
                                             <span class="invalid-feedback" role="alert">
