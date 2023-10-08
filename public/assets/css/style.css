@@ -230,6 +230,36 @@ button {
   color: #fff;
   opacity: 1;
   font-size: 20px;
+.alert-dismissible .close {
+    position: relative;
+    top: -2px;
+    right: 0px;
+    color: inherit;
+}
+.bg-login {
+	background-image: url(../images/background-horse.jpg)  !important;
+	padding: 60px 0px !important;
+	background-size: cover !important;
+	background-position: center center !important;
+	position: relative !important;
+	border-radius: 0px 0px 50% 50% !important; }
+
+.bg-login-overlay{
+	opacity: .6 !important;
+	}
+/* - Nav Dropdown */
+
+/* ## Responsive ************************************************************************************** */
+	
+/*----------------------------------------------------
+	* Responsive
+------------------------------------------------------*/
+
+/* - min-width: 1200 */
+@media (min-width: 1200px) {
+	.container {
+		width: 1200px;
+	}
 }
 
 .slick-dots li button {
