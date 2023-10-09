@@ -15,7 +15,7 @@
                         @endphp
 
                         <h4 class="page-title mb-0 font-size-18">{{ $user->role->name }} panel</h4>
-
+                        {{-- dd($user) --}}
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
                                 <li class="breadcrumb-item active">Welcome to {{ config('app.name', 'Laravel') }}</li>

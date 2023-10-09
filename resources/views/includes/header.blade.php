@@ -1,14 +1,14 @@
 <header id="page-topbar">
     <div class="navbar-header">
         <div class="container-fluid">
-            <div class="float-end">
+            {{-- <div class="float-end"> --}}
 
                 <div class="dropdown d-inline-block d-lg-none ms-2">
                     <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-search-dropdown"
                         data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="mdi mdi-magnify"></i>
                     </button>
-                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
+                    {{-- <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
                         aria-labelledby="page-header-search-dropdown">
 
                         <form class="p-3">
@@ -23,7 +23,7 @@
                                 </div>
                             </div>
                         </form>
-                    </div>
+                    </div> --}}
                 </div>
 
                 <div class="dropdown d-none d-lg-inline-block ms-1">
@@ -61,11 +61,11 @@
                     </div>
                 </div>
 
-            </div>
+            {{-- </div> --}}
             <div>
                 <!-- LOGO -->
                 <div class="navbar-brand-box">
-                    <a href="index.html" class="logo logo-dark">
+                    <a href="{{route('admin.dashboard')}}" class="logo logo-dark">
                         <span class="logo-sm">
                             <img src="assets/images/logo-sm.png" alt="" height="20">
                         </span>
@@ -74,7 +74,7 @@
                         </span>
                     </a>
 
-                    <a href="index.html" class="logo logo-light">
+                    <a href="{{route('admin.dashboard')}}" class="logo logo-light">
                         <span class="logo-sm">
                             <img src="assets/images/logo-sm.png" alt="" height="20">
                         </span>

@@ -13,20 +13,28 @@
 <section class="sec15">
     <div class="container">
         <div class="row justify-content-center">
+            
             <div class="col-md-5">
+                @if(session()->has('alert'))
+                    <div class="alert alert-success alert-dismissible show">
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        <strong class="alert-strong">{{session('alert')}}</strong>
+                    </div>
+                @endif
                 <h5>GET IN TOUCH WITH US</h5>
-                <form class="form row">
+                <form class="form row" action="{{route('contact.send')}}" method="POST">
+                    @csrf
                     <div class="col-md-6">
-                        <input type="text" placeholder="Name">
+                        <input type="text" name="name" placeholder="Name">
                     </div>
                     <div class="col-md-6">
-                        <input type="text" placeholder="Email Address">
+                        <input type="text" name="email" placeholder="Email Address">
                     </div>
                     <div class="col-md-12">
-                        <input type="text" placeholder="Contact No">
+                        <input type="text" name="phone" placeholder="Contact No">
                     </div>
                     <div class="col-md-12">
-                        <textarea cols="30" rows="6" placeholder="Message"></textarea>
+                        <textarea cols="30" rows="6" name="message" placeholder="Message"></textarea>
                     </div>
                     <div class="col-md-12 text-end">
                         <button class="theme-btn">SUBMIT <i class="fa-solid fa-arrow-right-long"></i></button>

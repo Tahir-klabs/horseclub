@@ -19,9 +19,9 @@ use App\Http\Controllers\WebsiteController;
 |
  */
 
-Route::get('/', function () {
-    return view('');
-});
+// Route::get('/', function () {
+//     return view('');
+// });
 // Route::get('/', [HomeController::class, 'index'])->name('/');
 // Route::get('/login', function () {
 //     return view('auth.login');

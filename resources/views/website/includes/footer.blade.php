@@ -38,7 +38,12 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-7">
-                <p>My Racing Syndicate 2023. All Rights Reserved.</p>
+                
+                <p>© {{ config('app.name', 'Laravel') }}
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script>. All Rights Reserved.
+                </p>
             </div>
             <div class="col-md-5 text-e">
                 <a href="https://www.facebook.com/My-Racing-Syndicate-108365455337702"><i

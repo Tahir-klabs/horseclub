@@ -13,7 +13,7 @@
                 {{-- @php
                     $user = App\Models\User::with('role')->find(auth()->user()->id);
                 @endphp --}}
-                <a href="#" class="text-dark fw-medium font-size-16">{{ auth()->user()->name }}</a>
+                <a href="{{route('admin.dashboard')}}" class="text-dark fw-medium font-size-16">{{ auth()->user()->name }}</a>
 
                 <p class="text-body mt-1 mb-0 font-size-13">{{ auth()->user()->role->name }}</p>
 
@@ -51,7 +51,7 @@
                     <li>
                         <a href="{{ route('admin.leader') }}" class=" waves-effect">
                             <i class="fas fa-user-tie"></i>
-                            <span>Manage Leader's</span>
+                            <span>Manage Horse's</span>
                         </a>
                     </li>
                 @elseif(auth()->user()->role_id == 2)
@@ -74,7 +74,7 @@
                     <li>
                         <a href="{{ route('admin.team') }}" class=" waves-effect">
                             <i class="fas fa-users-cog"></i>
-                            <span>Manage Team's</span>
+                            <span>Manage Race's</span>
                         </a>
                     </li>
                 @endif
